@@ -1,62 +1,9 @@
 <?
+$title = "Эндоскопический центр";
+$description = "Эндоскопический центр ООО Лечебно-диагностическая поликлиника. Обследование пищевода, желудка, кишечника. Выявление раннего рака. Проктология. Узи";
+$keywords = "Эндоскопический центр Чебоксары, лечебно-диагностическая поликлиника чебоксары, эндоскопия Чебоксары";
 include_once 'inc/header.php';
 ?>
-
-<body class="homepage">
-
-    <header id="header">
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-xs-4">
-                        <div class="top-number">
-                        <p class="text-grey"><i class="fa fa-phone-square"></i>  8 (8352) 21-77-66</p>
-                        <p class="text-grey"><i class="fa fa-phone-square"></i>  8 (8352) 21-66-99</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-8">
-                       <div class="social">
-                            <a href="registry" class="btn btn-default registry-button">ЗАПИСАТЬСЯ НА ПРИЕМ СЕЙЧАС!</a>
-                       </div>
-                    </div>
-                </div>
-            </div><!--/.container-->
-        </div><!--/.top-bar-->
-
-        <nav class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-                </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index">Главная</a></li>
-                        <li><a href="about-us">О поликлинике</a></li>
-                        <li><a href="services">Услуги и цены</a></li>
-                        <li><a href="documents">Документы</a></li>
-                        <li class="dropdown">
-                            <a href="preparation" class="dropdown-toggle" data-toggle="dropdown">Подготовка <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="fgds-preparation">ФГДС</a></li>
-                                <li><a href="fks-preparation">Колоноскопия</a></li>
-                                <li><a href="prokto-preparation">Проктология</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="contacts">Контакты</a></li>                        
-                    </ul>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-		
-    </header><!--/header-->
-
     <section id="main-slider" class="no-margin">
         <div class="carousel slide">
             <ol class="carousel-indicators">
@@ -66,21 +13,18 @@ include_once 'inc/header.php';
             </ol>
             <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(images/slider/endo_main_bg.png)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1 greeting-text">Добро пожаловать!</h1>
+                                    <h2 class="animation animated-item-2 greeting-text">Обследование пищевода, желудка, кишечника. Выявление раннего рака. Проктология. Узи</h2>
+                                    <a class="btn-slide animation animated-item-3 green-button" href="#">Подробнее</a>
                                 </div>
                             </div>
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="images/slider/img1.png" class="img-responsive">
-                                </div>
                             </div>
 
                         </div>

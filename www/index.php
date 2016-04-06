@@ -50,20 +50,17 @@ include_once 'inc/header.php';
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(images/slider/ligator-bg.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
-                                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h1 class="animation animated-item-1 text-grey">ВЫЛЕЧИТЬ ГЕМОРРОЙ ПОМОЖЕТ СОВРЕМЕННЫЙ И БЕЗБОЛЕЗНЕННЫЙ СПОСОБ!</h1>
+                                    <h2 class="animation animated-item-2">Лигирование геморроидальных узлов латексными кольцами позволяет избежать сложной операции в условиях стационара примерно около 80% больных геморроем</h2>
+                                    <a class="btn-slide animation animated-item-3" href="ligation">Подробнее</a>
                                 </div>
                             </div>
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
-                                    <img src="images/slider/img3.png" class="img-responsive">
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,59 +78,75 @@ include_once 'inc/header.php';
     <section id="feature" >
         <div class="container">
            <div class="center wow fadeInDown">
-                <h2>Features</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>Мы предлагаем</h2>
+                <p class="lead">Ряд специализированных обследований, которые помогут Вам сохранить здоровье и долголетие!</p>
             </div>
 
             <div class="row">
                 <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-bullhorn"></i>
-                            <h2>Fresh and Clean</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>ФГДС</h2>
+                            <h3><strong>Фиброэзофагогастродуоденоскопия</strong> под видеоконтролем - исследование состояния слизистой оболочки пищевода, желудка и двенадцатиперстной кишки </h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-comments"></i>
-                            <h2>Retina ready</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>ФКС</h2>
+                            <h3><strong>Колоноскопия</strong> (исследование толстого кишечника), для выявления различной патологии, включая и онкопатологию</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cloud-download"></i>
-                            <h2>Easy to customize</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>УЗИ</h2>
+                            <h3>Исследование Вашего организма с использованием высокотехнологичного аппарата при помощи ультразвуковых волн</h3>
                         </div>
                     </div><!--/.col-md-4-->
-                
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="features">
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-leaf"></i>
-                            <h2>Adipisicing elit</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>Проктология</h2>
+                            <h3>Выявление и лечение болезней толстой кишки</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-cogs"></i>
-                            <h2>Sed do eiusmod</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>Гастроэнтерология</h2>
+                            <h3>Диагностика и лечение заболеваний желудочно-кишечного тракта</h3>
                         </div>
                     </div><!--/.col-md-4-->
 
                     <div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="feature-wrap">
-                            <i class="fa fa-heart"></i>
-                            <h2>Labore et dolore</h2>
-                            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                            <h2>Невролог</h2>
+                            <h3>Диагностика заболеваний центральной и периферической нервной системы</h3>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="features">
+                    <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <h2>Терапевт</h2>
+                            <h3>Комплексная диагностика состояния здоровья</h3>
                         </div>
                     </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="feature-wrap">
+                            <h2>Эндокринолог</h2>
+                            <h3>Профилактика и лечение патологий эндокринной системы</h3>
+                        </div>
+                    </div><!--/.col-md-4-->
+                  </div>
+               </div>
                 </div><!--/.services-->
             </div><!--/.row-->    
         </div><!--/.container-->
@@ -142,118 +155,167 @@ include_once 'inc/header.php';
     <section id="recent-works">
         <div class="container">
             <div class="center wow fadeInDown">
-                <h2>Recent Works</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2>Наши консультанты</h2>
+                
             </div>
 
+        <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme</a> </h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
+                <div class="col-sm-10 col-sm-offset-1">
+                    <div class="col-md-4 col-sm-4">
+                      <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/consult/mitrakova-bg.jpg"/>
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/consult/mitrakova2.jpg"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">МИТРАКОВА НИНА НИКОЛАЕВНА</h3>
+                                        <p class="profession">Главный эндоскопист Министерства         здравоохранения Республики Марий Эл</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn btn-simple" onclick="rotateCard(this)">
+                                            <i class="fa fa-mail-forward"></i> Подробнее
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <p class="text-center">Заведующая эндоскопическим отделением         Республиканской клинической больницы. Доктор медицинских наук.         Заслуженный врач Республики Марий Эл. Автор 87 научных публикаций,         2 учебно-методических пособий.</p>
+        
+        
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="        rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Назад
+                                    </button>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                      </div> <!-- end card-container -->
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme</a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
                     </div>
-                </div> 
+                     <div class="col-md-4 col-sm-4">
+                      <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/consult/muravyov-bg.jpg"/>
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/consult/muravyov.jpg"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">МУРАВЬЕВ ВЛАДИМИР ЮРЬЕВИЧ</h3>
+                                        <p class="profession">Главный эндоскопист Республики Татарстан</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn btn-simple" onclick="rotateCard(this)">
+                                            <i class="fa fa-mail-forward"></i> Подробнее
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <p class="text-center">Руководит Эндоскопическим центром ГУЗ «Республиканский клинический онкологический диспансер» МЗ РТ.
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
+Доктор медицинских наук, профессор, заслуженный врач РФ и РТ, профессор кафедры эндоскопии, общей и эндоскопической хирургии КГМА.
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
-                
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme</a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
+За большой вклад в развитие эндоскопии в России в 2007 году награжден золотой медалью Российского эндоскопического общества.</p>
+        
+        
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="        rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Назад
+                                    </button>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                      </div> <!-- end card-container -->
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
                     </div>
-                </div> 
+                    <div class="col-md-4 col-sm-4">
+                      <div class="card-container manual-flip">
+                        <div class="card">
+                            <div class="front">
+                                <div class="cover">
+                                    <img src="images/consult/subbotin-bg.jpg"/>
+                                </div>
+                                <div class="user">
+                                    <img class="img-circle" src="images/consult/subbotin.jpg"/>
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <h3 class="name">СУББОТИН АЛЕКСАНДР МИХАЙЛОВИЧ</h3>
+                                        <p class="profession">Главный эндоскопист Нижнего Новгорода</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <button class="btn btn-simple" onclick="rotateCard(this)">
+                                            <i class="fa fa-mail-forward"></i> Подробнее
+                                        </button>
+                                    </div>
+                                </div>
+                            </div> <!-- end front panel -->
+                            <div class="back">
+                                <div class="header">
+                                </div>
+                                <div class="content">
+                                    <div class="main">
+                                        <p class="text-center">Внештатный специалист по эндоскопии Минздрава Нижегородской области.
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
-                    </div>
-                </div>   
+Заведующий отделением эндоскопии Городской клинической больницы №13 (ГКБ №13).</p>
+        
+        
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button class="btn btn-simple" rel="tooltip" title="Flip Card" onclick="        rotateCard(this)">
+                                        <i class="fa fa-reply"></i> Назад
+                                    </button>
+                                </div>
+                            </div> <!-- end back panel -->
+                        </div> <!-- end card -->
+                      </div> <!-- end card-container -->
 
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <div class="recent-work-wrap">
-                        <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
-                        <div class="overlay">
-                            <div class="recent-work-inner">
-                                <h3><a href="#">Business theme </a></h3>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                            </div> 
-                        </div>
                     </div>
-                </div>   
-            </div><!--/.row-->
+        
+                </div>
+            </div>
+          </div>
         </div><!--/.container-->
     </section><!--/#recent-works-->
+<script type="text/javascript">
+    $().ready(function(){
+        $('[rel="tooltip"]').tooltip();
 
+    });
+
+    function rotateCard(btn){
+        var $card = $(btn).closest('.card-container');
+        console.log($card);
+        if($card.hasClass('hover')){
+            $card.removeClass('hover');
+        } else {
+            $card.addClass('hover');
+        }
+    }
+</script>
     <section id="services" class="service-item">
 	   <div class="container">
             <div class="center wow fadeInDown">

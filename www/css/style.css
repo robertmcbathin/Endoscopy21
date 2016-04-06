@@ -43,3 +43,16 @@
 .grey-1{
 	color: #FFFCFC;
 }
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #3c763d;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    padding: 8px 15px;
+    color: #fff;
+    background: #3c763d;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover {
+    padding: 8px 15px;
+    color: #fff;
+    background: #6bce71;
+}

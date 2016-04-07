@@ -10,18 +10,18 @@ include_once 'inc/header.php';
                 <h2>Прайс-лист</h2>
             </div>
            <h2>ОСНОВНЫЕ УСЛУГИ</h2>
-          <h3>Фиброэзофагогастродуоденоскопия (ФГДС) <a style="float:right;" href="preparation#fgds">Подготовка</a></h3>
+          <h3>Фиброэзофагогастродуоденоскопия (ФГДС) <a style="float:right;" href="fgds-preparation">Подготовка</a></h3>
      <hr>
     <table width="800">
     <tr><td width="700">Видеогастроскопия</td><td><b>1200</b></td></tr>
   <!-- <tr><td width="700"ФГДС на дому<td><td><b>5000</b></td></tr>-->
     </table>
-    <h3>Колоноскопия (ФКС)<a style="float:right;" href="preparation#colono">Подготовка</a></h3>
+    <h3>Колоноскопия (ФКС)<a style="float:right;" href="fks-preparation">Подготовка</a></h3>
      <hr>
     <table width="800">
     <tr><td width="700">видеоколоноскопия</td><td><b>2000</b></td></tr>
     </table>
-    <h3>Проктология  <a style="float:right;" href="preparation#prokto">Подготовка</a></h3> <!--<a href="action" class="action-href">[АКЦИЯ!]</a>-->
+    <h3>Проктология  <a style="float:right;" href="proctology-preparation">Подготовка</a></h3> <!--<a href="action" class="action-href">[АКЦИЯ!]</a>-->
      <hr>
     <table width="800">
       <tr>

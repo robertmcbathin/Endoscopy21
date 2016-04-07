@@ -79,5 +79,6 @@
     <script src="frontside/js/jquery.isotope.min.js"></script>
     <script src="frontside/js/main.js"></script>
     <script src="frontside/js/wow.min.js"></script>
+    <script src="/frontside/lightbox2/dist/js/lightbox.min.js"></script>
 </body>
 </html>

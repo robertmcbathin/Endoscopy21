@@ -56,3 +56,10 @@
     color: #fff;
     background: #6bce71;
 }
+.map{
+	background-image: url('../images/ldp-map.jpg');
+	height:500px;
+}
+.no-padding{
+	padding: 0;
+}

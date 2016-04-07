@@ -14,7 +14,7 @@
     <link href="frontside/css/font-awesome.min.css" rel="stylesheet">
     <link href="frontside/css/animate.min.css" rel="stylesheet">
     <link href="frontside/css/prettyPhoto.css" rel="stylesheet">
-    <link href="frontside/css/main.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link href="frontside/css/responsive.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/rotating-card.css" rel="stylesheet">
@@ -64,8 +64,8 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index">Главная</a></li>
-                        <li><a href="about-us">О поликлинике</a></li>
-                        <li><a href="services">Услуги и цены</a></li>
+                        <li><a href="about">О поликлинике</a></li>
+                        <li><a href="pricelist">Услуги и цены</a></li>
                         <li><a href="documents">Документы</a></li>
                         <li class="dropdown">
                             <a href="preparation" class="dropdown-toggle" data-toggle="dropdown">Подготовка <i class="fa fa-angle-down"></i></a>

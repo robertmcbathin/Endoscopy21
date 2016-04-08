@@ -5,7 +5,7 @@ $keywords = "Эндоскопический центр Чебоксары, ле�
 include_once 'inc/header.php';
 ?>
     <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
+        <div class="carousel slide" data-ride="carousel" data-interval="5000">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
@@ -20,7 +20,7 @@ include_once 'inc/header.php';
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1 greeting-text">Добро пожаловать!</h1>
                                     <h2 class="animation animated-item-2 greeting-text">Обследование пищевода, желудка, кишечника. Выявление раннего рака. Проктология. Узи</h2>
-                                    <a class="btn-slide animation animated-item-3 green-button" href="#">Подробнее</a>
+                                    <a class="btn-slide animation animated-item-3 green-button" href="about">Подробнее</a>
                                 </div>
                             </div>
 
@@ -38,7 +38,7 @@ include_once 'inc/header.php';
                                 <div class="carousel-content">
                                     <h1 class="animation animated-item-1">Трансназальная ФГДС</h1>
                                     <h2 class="animation animated-item-2 grey-1">Комфортно. Эффективно. Безопасно</h2>
-                                    <a class="btn-slide animation animated-item-3" href="transnasal">Подробнее</a>
+                                    <a class="btn-slide animation animated-item-3" href="transnasal-fgds">Подробнее</a>
                                 </div>
                             </div>
 
@@ -77,7 +77,7 @@ include_once 'inc/header.php';
 
     <section id="feature" >
         <div class="container">
-           <div class="center wow fadeInDown">
+           <div class="center wow fadeInDown" data-wow-delay="600ms">
                 <h2>Мы предлагаем</h2>
                 <p class="lead">Ряд специализированных обследований, которые помогут Вам сохранить здоровье и долголетие!</p>
             </div>

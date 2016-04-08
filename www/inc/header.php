@@ -72,7 +72,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="fgds-preparation">ФГДС</a></li>
                                 <li><a href="fks-preparation">Колоноскопия</a></li>
-                                <li><a href="prokto-preparation">Проктология</a></li>
+                                <li><a href="proctology-preparation">Проктология</a></li>
                             </ul>
                         </li>
                         <li><a href="contacts">Контакты</a></li>                        

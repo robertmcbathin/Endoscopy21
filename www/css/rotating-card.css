@@ -142,20 +142,20 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-.card .card-footer {
+.card .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
     margin: 30px 0 0;
     padding: 10px 0 0;
     text-align: center;
 }
-.card .card-footer .social-links{
+.card .footer .social-links{
     font-size: 18px;
 }
-.card .card-footer .social-links a{
+.card .footer .social-links a{
     margin: 0 7px;
 }
-.card .card-footer .btn-simple{
+.card .footer .btn-simple{
     margin-top: -6px;
 }
 .card .header {

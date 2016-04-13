@@ -72,8 +72,6 @@
             </div>
         </div>
     </footer><!--/#footer-->
-
-    <script src="frontside/js/jquery.js"></script>
     <script src="frontside/js/bootstrap.min.js"></script>
     <script src="frontside/js/jquery.prettyPhoto.js"></script>
     <script src="frontside/js/jquery.isotope.min.js"></script>

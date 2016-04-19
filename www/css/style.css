@@ -66,3 +66,18 @@
 .form-control:focus{
 	border: 1px solid #2E8B57;
 }
+.desc{
+	font-size: 24px;
+    color: #4E4E4E;
+    font-weight: 600;
+    line-height: 24px;
+}
+.v-center-parent{
+	line-height: 250px;
+}
+.v-center-parent-sm{
+	line-height: 100px;
+}
+.v-center{
+	vertical-align: middle;
+}

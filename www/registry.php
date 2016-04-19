@@ -51,7 +51,7 @@ if(isset($_POST['fio']))
     $sql = "INSERT INTO  `request` VALUES('','$tomail','$frommail','$fio','$phone','$date_of_receive','$direction','$appointment_date','$appointment_time','$comment','new')";
     if(!$mysqli->query($sql))
     {
-      die("<div class=\"alert alert-danger\" role=\"alert\">Что-то пошло не так. Пожалуйста, повторите попытку</div>");
+      die("<div class=\"alert alert-danger\" role=\"alert\">Что-то пошло не так. Пожалуйста, повторите попытку или свяжитесь с нами по телефону (8352) 21-77-66</div>");
     }
     else
     {
@@ -136,8 +136,7 @@ if(isset($_POST['fio']))
               <br>        
               <label for="comment">
                 Дополнительная информация
-                <textarea class="form-control" name="comment" cols="30" rows="5">
-                  <? echo $comment;?></textarea>
+                <textarea class="form-control" name="comment" cols="30" rows="5"><? echo $comment;?></textarea>
               </label>
               <br>
               <input type="submit" class="btn btn-primary registry-button" value="Отправить заявку"/>        

@@ -74,7 +74,7 @@ if(isset($_POST['fio']))
        $headers .= "Content-type: text/html; charset=utf-8\r\n";
        if (mail($tomail, $subject, $message,$headers))
        {
-         $alert = "<div class=\"alert alert-success\" role=\"alert\">>Ваша заявка отправлена! Ждите подтверждения по электронной почте и от администратора</div>";
+         $alert = "<div class=\"center\"><div class=\"alert alert-success\" role=\"alert\">Ваша заявка отправлена! Ждите подтверждения по электронной почте и от администратора</div></div>";
          /*SEND EMAIL TO CLIENT*/
          $to_client = $frommail;
          $subject_to_client = 'Ваша заявка №' . $last_rid . ' в эндоскопическом центре';

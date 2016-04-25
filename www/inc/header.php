@@ -15,7 +15,7 @@
     <link href="frontside/css/bootstrap.min.css" rel="stylesheet">
     <link href="frontside/css/font-awesome.min.css" rel="stylesheet">
     <link href="frontside/css/animate.min.css" rel="stylesheet">
-    <link href="frontside/css/prettyPhoto.css" rel="stylesheet">
+    <link href="frontside/css/pretty-photo.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="frontside/css/responsive.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">

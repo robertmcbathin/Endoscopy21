@@ -17,7 +17,10 @@ include_once 'inc/header.php';
               <a href="/images/licenses/license_2015_01.jpg" data-lightbox="license" data-title="Лицензия на осуществление медицинской деятельности (лист 1)"><img src="/images/thumbnails/license-th-1.jpg" alt="Лицензия на осуществление медицинской деятельности"></a>
               <a href="/images/licenses/license_2015_02.jpg" data-lightbox="license" data-title="Лицензия на осуществление медицинской деятельности (лист 2)"><img src="/images/thumbnails/license-th-2.jpg" alt="Лицензия на осуществление медицинской деятельности"></a>
               <a href="/images/licenses/license_2015_03.jpg" data-lightbox="license" data-title="Лицензия на осуществление медицинской деятельности (лист 3)"><img src="/images/thumbnails/license-th-3.jpg" alt="Лицензия на осуществление медицинской деятельности"></a>
-              </div>
+            </div>
+            <div class="center">
+              <p>Вы можете <a href="/pdf/license.pdf" target="_blank" class="btn btn-default registry-button">скачать и распечатать файл</a> в формате PDF.</p>
+            </div>
         </div><!--/.container-->
     </section><!--/#feature-->
 <?

@@ -20,13 +20,9 @@
                             <li><a href="fgds">ФГДС</a></li>
                             <li><a href="fks">ФКС</a></li>
                             <li><a href="proctology">Проктология</a></li>
-                            <li><a href="neurology">Неврология</a></li>
-                            <li><a href="therapist">Терапевт</a></li>
-                            <li><a href="endocrinologist">Эндокринолог</a></li>
                             <li><a href="gastroenterologist">Гастроэнтеролог</a></li>
                             <li><a href="uzi">УЗИ</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="biopsy">Патогистологическая биопсия</a></li>
                             <li><a href="helicobacter">Тест Helicobacter</a></li>
                         </ul>
                     </div>    
@@ -47,8 +43,7 @@
                     <div class="widget">
                         <h3>Важно знать</h3>
                         <ul>
-                            <li><a href="guarantee-programm">Программа государственных гарантий</a></li>
-                            <li><a href="useful-information">Полезная информация</a></li>
+                            <li><a href="http://base.garant.ru/12191967/10/" target="_blank">Программа государственных гарантий</a></li>
                         </ul>
                     </div>    
                 </div><!--/.col-md-3-->
@@ -73,10 +68,34 @@
         </div>
     </footer><!--/#footer-->
     <script src="frontside/js/bootstrap.min.js"></script>
-    <script src="frontside/js/jquery.prettyPhoto.js"></script>
+    <script src="frontside/js/jquery.pretty-photo.js"></script>
     <script src="frontside/js/jquery.isotope.min.js"></script>
     <script src="frontside/js/main.js"></script>
     <script src="frontside/js/wow.min.js"></script>
     <script src="/frontside/lightbox2/dist/js/lightbox.min.js"></script>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter21858613 = new Ya.Metrika({id:21858613,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
 </body>
 </html>

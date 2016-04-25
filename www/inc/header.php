@@ -37,13 +37,13 @@
         <div class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-xs-4">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="top-number">
                         <p class="text-grey"><i class="fa fa-phone-square"></i>  8 (8352) 21-77-66</p>
-                        <p class="text-grey"><i class="fa fa-phone-square"></i>  8 (8352) 21-66-99</p>
+                        <p class="text-grey hidden-xs"><i class="fa fa-phone-square"></i>  8 (8352) 21-66-99</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xs-8">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
                        <div class="social">
                             <a href="registry" class="btn btn-default registry-button">ЗАПИСАТЬСЯ НА ПРИЕМ СЕЙЧАС!</a>
                        </div>

@@ -4,7 +4,7 @@ $description = "Эндоскопический центр ООО Лечебно-
 $keywords = "Эндоскопический центр Чебоксары, лечебно-диагностическая поликлиника чебоксары, эндоскопия Чебоксары";
 include_once 'inc/header.php';
 ?>
-    <section id="main-slider" class="no-margin">
+    <section id="main-slider" class="no-margin hidden-xs">
         <div class="carousel slide" data-ride="carousel" data-interval="5000">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>

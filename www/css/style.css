@@ -81,3 +81,6 @@
 .v-center{
 	vertical-align: middle;
 }
+.navbar-inverse .navbar-toggle {
+    border-color: transparent; 
+}

@@ -1,4 +1,6 @@
-<?include_once '../backside/core/init.inc.php';?>
+<?include_once '../backside/core/init.inc.php';
+$current_page = $_SERVER['PHP_SELF'];
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -66,11 +68,11 @@
                 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index">Главная</a></li>
-                        <li><a href="about">О поликлинике</a></li>
-                        <li><a href="pricelist">Услуги и цены</a></li>
-                        <li><a href="documents">Документы</a></li>
-                        <li class="dropdown">
+                        <li <?php if ($current_page == '/index.php'){echo "class='active'";}?>"><a href="index">Главная</a></li>
+                        <li <?php if ($current_page == '/about.php'){echo "class='active'";}?>"><a href="about">О поликлинике</a></li>
+                        <li <?php if ($current_page == '/pricelist.php'){echo "class='active'";}?>"><a href="pricelist">Услуги и цены</a></li>
+                        <li <?php if ($current_page == '/documents.php'){echo "class='active'";}?>"><a href="documents">Документы</a></li>
+                        <li <?php if ($current_page == '/preparation.php'){echo "class='dropdown active'";}?>">
                             <a href="preparation" class="dropdown-toggle" data-toggle="dropdown">Подготовка <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="fgds-preparation">ФГДС</a></li>
@@ -78,7 +80,7 @@
                                 <li><a href="proctology-preparation">Проктология</a></li>
                             </ul>
                         </li>
-                        <li><a href="contacts">Контакты</a></li>                        
+                        <li <?php if ($current_page == '/contacts.php'){echo "class='active'";}?>><a href="contacts">Контакты</a></li>                        
                     </ul>
                 </div>
             </div><!--/.container-->
